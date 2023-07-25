@@ -1,0 +1,25 @@
+.MyWeb{
+    border: 1px solid tomato;
+    width: 310px;
+    padding: 15px;
+    border-radius: 8px;
+
+
+}
+.myweb-header{
+    display: flex;
+    align-items: center;
+}
+span{
+    border: 1px solid tomato;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: tomato;
+    font-size: 25px;
+
+}
