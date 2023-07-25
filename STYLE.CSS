@@ -1,8 +1,22 @@
+.myweb-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+
+}
 .MyWeb{
     border: 1px solid tomato;
-    width: 310px;
+    width: 300px;
     padding: 15px;
     border-radius: 8px;
+    transition: scale ease 0.3s;
+
+
+}
+.MyWeb:hover{
+    scale: 1.07;
 
 
 }
